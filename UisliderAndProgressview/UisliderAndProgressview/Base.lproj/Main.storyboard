@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="7706" systemVersion="14A389" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7703"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="480"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <progressView opaque="NO" contentMode="scaleToFill" verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="4H3-Cf-D6u">
+                                <rect key="frame" x="80" y="229" width="150" height="2"/>
+                                <color key="progressTintColor" red="1" green="0.98431378599999997" blue="0.039215687659999998" alpha="1" colorSpace="deviceRGB"/>
+                                <color key="trackTintColor" red="1" green="0.21960784310000001" blue="0.16078431369999999" alpha="1" colorSpace="calibratedRGB"/>
+                            </progressView>
+                            <slider opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="-0.5" minValue="-0.5" maxValue="1" translatesAutoresizingMaskIntoConstraints="NO" id="qOW-eB-qIt">
+                                <rect key="frame" x="78" y="136" width="118" height="31"/>
+                                <color key="minimumTrackTintColor" red="0.0" green="0.0" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <color key="maximumTrackTintColor" red="1" green="0.98431378599999997" blue="0.039215687659999998" alpha="1" colorSpace="deviceRGB"/>
+                                <color key="thumbTintColor" red="1" green="0.093096080430000006" blue="0.06218823264" alpha="1" colorSpace="calibratedRGB"/>
+                                <connections>
+                                    <action selector="sliderprogressview:" destination="BYZ-38-t0r" eventType="valueChanged" id="U1r-rP-I5T"/>
+                                </connections>
+                            </slider>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                    </view>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics"/>
+                    <connections>
+                        <outlet property="progressview" destination="4H3-Cf-D6u" id="ioJ-f0-Dmx"/>
+                        <outlet property="slider" destination="qOW-eB-qIt" id="JyC-WN-17v"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+        </scene>
+    </scenes>
+</document>

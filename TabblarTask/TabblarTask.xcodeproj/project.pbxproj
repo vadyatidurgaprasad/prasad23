@@ -1,0 +1,453 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0075048F1E77EC8900F28481 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0075048E1E77EC8900F28481 /* main.m */; };
+		007504921E77EC8900F28481 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 007504911E77EC8900F28481 /* AppDelegate.m */; };
+		007504951E77EC8900F28481 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 007504941E77EC8900F28481 /* ViewController.m */; };
+		007504981E77EC8900F28481 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 007504961E77EC8900F28481 /* Main.storyboard */; };
+		0075049A1E77EC8900F28481 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 007504991E77EC8900F28481 /* Images.xcassets */; };
+		0075049D1E77EC8900F28481 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0075049B1E77EC8900F28481 /* LaunchScreen.xib */; };
+		007504A91E77EC8900F28481 /* TabblarTaskTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 007504A81E77EC8900F28481 /* TabblarTaskTests.m */; };
+		007504B41E77EEC000F28481 /* SecViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 007504B31E77EEC000F28481 /* SecViewController.m */; };
+		007504B71E77EEE400F28481 /* ThirdViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 007504B61E77EEE400F28481 /* ThirdViewController.m */; };
+		007504BA1E77EF2900F28481 /* FourthViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 007504B91E77EF2900F28481 /* FourthViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		007504A31E77EC8900F28481 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 007504811E77EC8700F28481 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 007504881E77EC8800F28481;
+			remoteInfo = TabblarTask;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		007504891E77EC8800F28481 /* TabblarTask.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TabblarTask.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		0075048D1E77EC8900F28481 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0075048E1E77EC8900F28481 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		007504901E77EC8900F28481 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		007504911E77EC8900F28481 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		007504931E77EC8900F28481 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		007504941E77EC8900F28481 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		007504971E77EC8900F28481 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		007504991E77EC8900F28481 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		0075049C1E77EC8900F28481 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		007504A21E77EC8900F28481 /* TabblarTaskTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TabblarTaskTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		007504A71E77EC8900F28481 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		007504A81E77EC8900F28481 /* TabblarTaskTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TabblarTaskTests.m; sourceTree = "<group>"; };
+		007504B21E77EEC000F28481 /* SecViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SecViewController.h; path = ../SecViewController.h; sourceTree = "<group>"; };
+		007504B31E77EEC000F28481 /* SecViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SecViewController.m; path = ../SecViewController.m; sourceTree = "<group>"; };
+		007504B51E77EEE400F28481 /* ThirdViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ThirdViewController.h; path = ../ThirdViewController.h; sourceTree = "<group>"; };
+		007504B61E77EEE400F28481 /* ThirdViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ThirdViewController.m; path = ../ThirdViewController.m; sourceTree = "<group>"; };
+		007504B81E77EF2900F28481 /* FourthViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FourthViewController.h; path = ../FourthViewController.h; sourceTree = "<group>"; };
+		007504B91E77EF2900F28481 /* FourthViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FourthViewController.m; path = ../FourthViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		007504861E77EC8800F28481 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0075049F1E77EC8900F28481 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		007504801E77EC8700F28481 = {
+			isa = PBXGroup;
+			children = (
+				0075048B1E77EC8800F28481 /* TabblarTask */,
+				007504A51E77EC8900F28481 /* TabblarTaskTests */,
+				0075048A1E77EC8800F28481 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		0075048A1E77EC8800F28481 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				007504891E77EC8800F28481 /* TabblarTask.app */,
+				007504A21E77EC8900F28481 /* TabblarTaskTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0075048B1E77EC8800F28481 /* TabblarTask */ = {
+			isa = PBXGroup;
+			children = (
+				007504901E77EC8900F28481 /* AppDelegate.h */,
+				007504911E77EC8900F28481 /* AppDelegate.m */,
+				007504931E77EC8900F28481 /* ViewController.h */,
+				007504941E77EC8900F28481 /* ViewController.m */,
+				007504B21E77EEC000F28481 /* SecViewController.h */,
+				007504B31E77EEC000F28481 /* SecViewController.m */,
+				007504B51E77EEE400F28481 /* ThirdViewController.h */,
+				007504B61E77EEE400F28481 /* ThirdViewController.m */,
+				007504B81E77EF2900F28481 /* FourthViewController.h */,
+				007504B91E77EF2900F28481 /* FourthViewController.m */,
+				007504961E77EC8900F28481 /* Main.storyboard */,
+				007504991E77EC8900F28481 /* Images.xcassets */,
+				0075049B1E77EC8900F28481 /* LaunchScreen.xib */,
+				0075048C1E77EC8900F28481 /* Supporting Files */,
+			);
+			path = TabblarTask;
+			sourceTree = "<group>";
+		};
+		0075048C1E77EC8900F28481 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				0075048D1E77EC8900F28481 /* Info.plist */,
+				0075048E1E77EC8900F28481 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		007504A51E77EC8900F28481 /* TabblarTaskTests */ = {
+			isa = PBXGroup;
+			children = (
+				007504A81E77EC8900F28481 /* TabblarTaskTests.m */,
+				007504A61E77EC8900F28481 /* Supporting Files */,
+			);
+			path = TabblarTaskTests;
+			sourceTree = "<group>";
+		};
+		007504A61E77EC8900F28481 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				007504A71E77EC8900F28481 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		007504881E77EC8800F28481 /* TabblarTask */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 007504AC1E77EC8900F28481 /* Build configuration list for PBXNativeTarget "TabblarTask" */;
+			buildPhases = (
+				007504851E77EC8800F28481 /* Sources */,
+				007504861E77EC8800F28481 /* Frameworks */,
+				007504871E77EC8800F28481 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TabblarTask;
+			productName = TabblarTask;
+			productReference = 007504891E77EC8800F28481 /* TabblarTask.app */;
+			productType = "com.apple.product-type.application";
+		};
+		007504A11E77EC8900F28481 /* TabblarTaskTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 007504AF1E77EC8900F28481 /* Build configuration list for PBXNativeTarget "TabblarTaskTests" */;
+			buildPhases = (
+				0075049E1E77EC8900F28481 /* Sources */,
+				0075049F1E77EC8900F28481 /* Frameworks */,
+				007504A01E77EC8900F28481 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				007504A41E77EC8900F28481 /* PBXTargetDependency */,
+			);
+			name = TabblarTaskTests;
+			productName = TabblarTaskTests;
+			productReference = 007504A21E77EC8900F28481 /* TabblarTaskTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		007504811E77EC8700F28481 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0630;
+				ORGANIZATIONNAME = mine;
+				TargetAttributes = {
+					007504881E77EC8800F28481 = {
+						CreatedOnToolsVersion = 6.3.2;
+					};
+					007504A11E77EC8900F28481 = {
+						CreatedOnToolsVersion = 6.3.2;
+						TestTargetID = 007504881E77EC8800F28481;
+					};
+				};
+			};
+			buildConfigurationList = 007504841E77EC8700F28481 /* Build configuration list for PBXProject "TabblarTask" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 007504801E77EC8700F28481;
+			productRefGroup = 0075048A1E77EC8800F28481 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				007504881E77EC8800F28481 /* TabblarTask */,
+				007504A11E77EC8900F28481 /* TabblarTaskTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		007504871E77EC8800F28481 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				007504981E77EC8900F28481 /* Main.storyboard in Resources */,
+				0075049D1E77EC8900F28481 /* LaunchScreen.xib in Resources */,
+				0075049A1E77EC8900F28481 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		007504A01E77EC8900F28481 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		007504851E77EC8800F28481 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				007504BA1E77EF2900F28481 /* FourthViewController.m in Sources */,
+				007504B41E77EEC000F28481 /* SecViewController.m in Sources */,
+				007504B71E77EEE400F28481 /* ThirdViewController.m in Sources */,
+				007504951E77EC8900F28481 /* ViewController.m in Sources */,
+				007504921E77EC8900F28481 /* AppDelegate.m in Sources */,
+				0075048F1E77EC8900F28481 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0075049E1E77EC8900F28481 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				007504A91E77EC8900F28481 /* TabblarTaskTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		007504A41E77EC8900F28481 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 007504881E77EC8800F28481 /* TabblarTask */;
+			targetProxy = 007504A31E77EC8900F28481 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		007504961E77EC8900F28481 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				007504971E77EC8900F28481 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		0075049B1E77EC8900F28481 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0075049C1E77EC8900F28481 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		007504AA1E77EC8900F28481 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		007504AB1E77EC8900F28481 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		007504AD1E77EC8900F28481 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = TabblarTask/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		007504AE1E77EC8900F28481 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = TabblarTask/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		007504B01E77EC8900F28481 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = TabblarTaskTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TabblarTask.app/TabblarTask";
+			};
+			name = Debug;
+		};
+		007504B11E77EC8900F28481 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = TabblarTaskTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TabblarTask.app/TabblarTask";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		007504841E77EC8700F28481 /* Build configuration list for PBXProject "TabblarTask" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				007504AA1E77EC8900F28481 /* Debug */,
+				007504AB1E77EC8900F28481 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		007504AC1E77EC8900F28481 /* Build configuration list for PBXNativeTarget "TabblarTask" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				007504AD1E77EC8900F28481 /* Debug */,
+				007504AE1E77EC8900F28481 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		007504AF1E77EC8900F28481 /* Build configuration list for PBXNativeTarget "TabblarTaskTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				007504B01E77EC8900F28481 /* Debug */,
+				007504B11E77EC8900F28481 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 007504811E77EC8700F28481 /* Project object */;
+}
